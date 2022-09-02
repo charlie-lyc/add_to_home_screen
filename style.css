@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#056adb;
+}
+
+.add-to-home-screen {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(17, 17, 17, 0.5);
+    padding: 5px;
+}
+
+.add-to-home-screen .add-button,
+.add-to-home-screen .cancel-button {
+    border-radius: 3px;
+    background-color: rgb(17, 17, 17);
+    color:#dbb751;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 3px 10px;
+}
